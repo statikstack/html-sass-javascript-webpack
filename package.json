@@ -1,0 +1,33 @@
+{
+  "name": "html-sass-javascript-webpack",
+  "version": "1.0.0",
+  "description": "HTML5 + Sass + JavaScript + webpack.",
+  "author": "Statik <statikstack@gmail.com>",
+  "homepage": "https://github.com/statikstack/html-sass-javascript-webpack#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statikstack/html-sass-javascript-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/statikstack/html-sass-javascript-webpack/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "5.0.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.13.7"
+  },
+  "license": "MIT"
+}
