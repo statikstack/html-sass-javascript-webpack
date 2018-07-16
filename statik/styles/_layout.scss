@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $lynx-white;
+  border-top: 4px solid $rise-n-shine;
+  color: $electromagnetic;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+p {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
