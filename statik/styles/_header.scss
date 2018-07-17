@@ -1,0 +1,79 @@
+.header {
+  background-color: $pico-void;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+
+  &__brand {
+    align-items: center;
+    color: $lynx-white;
+    display: flex;
+
+    img {
+      margin-right: 1rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__social {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-left: 1rem;
+    }
+
+    a {
+      display: block;
+    }
+
+    svg {
+      fill: $hint-of-pensive;
+      transition: fill 200ms;
+      width: 1.5rem;
+    }
+
+    a:hover svg {
+      fill: $lynx-white;
+    }
+  }
+}
+
+.hero {
+  padding: 1rem;
+  text-align: center;
+
+  h1 {
+    color: $lynx-white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: $text-shadow;
+
+    @media (max-width: $breakpoint-xs) {
+      font-size: 2.5rem;
+    }
+  }
+
+  h2 {
+    color: $lynx-white;
+    font-size: 2rem;
+    padding: 1rem;
+    text-shadow: $text-shadow;
+
+    @media (max-width: $breakpoint-xs) {
+      font-size: 1.5rem;
+    }
+  }
+}

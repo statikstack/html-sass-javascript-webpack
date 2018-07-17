@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
